@@ -10,7 +10,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="bg-gray-100 flex items-center justify-center min-h-screen">
-        <div class="bg-white shadow-md rounded-lg p-6 max-w-2xl w-full">
+        <div class="bg-white shadow-md rounded-lg p-6 max-w-2xl w-full ml-4 mr-4">
             <h2 class="text-2xl font-bold mb-4">Kasir</h2>
             <div class="mb-4">
                 <label for="nominal" class="block text-sm font-medium text-gray-700">Masukkan Jumlah Belanja</label>
@@ -57,7 +57,7 @@
 
                             $('#wrap_payment').html(`
                                 <h4 class="text-md font-bold">Kemungkinan Pembayaran</h4>
-                                <div class="grid grid-cols-3 md:grid-cols-3 gap-4 mt-4">
+                                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
                                     ${divPayment}
                                 </div>
                             `)
